@@ -1,0 +1,142 @@
+.title{
+    margin-top: 200px;
+    font-family: Eurostile;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .require {
+        height: 100vh;
+        background-image: url("background/BG_presentatiosn_Le_Petit_Vintage.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+
+    }
+  body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+  }
+
+  .text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ }
+
+
+@media screen and (min-width: 800px) {
+    .require {
+        height: 80vh;
+        background-image: url("background/BG_presentatiosn_Le_Petit_Vintage_PC.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+
+    }
+  body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+  }
+
+  .text {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+    @font-face{
+      font-family: "eurostile";
+      src: url("/src/Eurostile.ttf") format('truetype');
+    }
+
+    h1,h2,h3,h4,h5{
+      font-family: eurostile;
+    }
+
+    .content {
+      width: 100%;
+      margin-bottom: 20px;
+      flex: content;
+
+    }
+
+    .text {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-size: 17px;
+      width: auto;
+      color: #F0F2F4;
+      background: linear-gradient(to bottom, black, grey);
+      padding: 10px 30px 10px 30px;
+      box-shadow: 1px 1px 15px #555;
+      border: 2px solid #E3A127;
+      border-radius: 5px;
+    }
+
+    .team {
+      font-size: 14px;
+      color: #E3A127;
+      text-decoration: underline;
+      margin-top: 80px;
+    }
+
+    .container {
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 100px;
+      flex-wrap: wrap;
+    }
+
+    .coiffeusesName {
+      font-style: italic;
+      font-size: 13px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .coiffeusesSpe {
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      box-shadow: 1px 1px 15px #555;
+      border: 4px solid #E3A127;
+      height: 320px;
+      width: 400px;
+      background-color:white;
+      margin: 15px;
+      border-radius: 15px;
+    }
+
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .coiffeuseImg {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 250px;
+      box-shadow: 1px 1px 15px #555;
+    }
+
+    .card img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }

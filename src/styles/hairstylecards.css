@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "eurostile";
+    src: url("/src/Eurostile.ttf") format('truetype');
+}
+.title{
+    margin-top: 200px;
+    font-family: Eurostile;
+    font-size: 50px;
+    color: white;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: eurostile;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: saddlebrown;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card {
+    height: 650px;
+    width: 400px;
+    background-color:white;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px #555;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hairstyleimg {
+    width: 100%;
+    box-shadow: 1px 1px 15px #555;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.display-block {
+    display: block;
+}
+
+.new-card {
+    background-color: #E3A127;
+    background-image: url(https://icons-for-free.com/download-icon-new+product+icon-1320165997431680647_512.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:130px, 130px;
+
+}
+
+p{
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    .require{
+        height: 80vh;
+        background-image: url("../background/BG_Contact_Le_Petit_Vintage_PC.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+    }
+}
+/* MOBILE*/
+@media screen and (max-width: 800px) {
+    .require{
+        height: 100vh;
+        background-image: url("../background/BG_Contact_Le_Petit_Vintage.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+    }
+    body{
+        width: 100%;
+        margin-top: 30px;
+
+    }
+}
